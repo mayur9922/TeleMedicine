@@ -41,7 +41,7 @@ const AdminApplications = () => {
           ),
           {
             success: "Application accepted",
-            error: "Unable to accept application",
+            error: "Unable to accept application!!",
             loading: "Accepting application...",
           }
         );
@@ -69,7 +69,7 @@ const AdminApplications = () => {
           ),
           {
             success: "Application rejected",
-            error: "Unable to reject application",
+            error: "Unable to reject application!",
             loading: "Rejecting application...",
           }
         );
