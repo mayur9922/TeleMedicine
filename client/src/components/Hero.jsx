@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/heroimg.jpg";
+import image from "../images/heroimage.jpg";
 import "../styles/hero.css";
 
 const Hero = () => {
@@ -11,9 +11,7 @@ const Hero = () => {
           Our Responsibility
         </h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          tenetur doloremque molestias repellat minus asperiores in aperiam
-          dolor, quaerat praesentium.
+        At Telemedicine, we're dedicated to redefining healthcare. Our telemedicine platform brings top-quality medical care right to your screen, making it easier than ever to access the support you need. We're committed to your well-being, offering a seamless and secure way to connect with skilled healthcare professionals from the comfort of your home. Your health, our mission. Join us in this exciting journey towards a healthier, more accessible future.
         </p>
       </div>
       <div className="hero-img">
