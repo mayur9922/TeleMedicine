@@ -7,6 +7,7 @@ import { setUserInfo } from "../redux/reducers/rootSlice";
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 import jwt_decode from "jwt-decode";
+import img1 from "/projects/Software project/TeleMedicine/client/src/images/doctors.png"
 
 const Navbar = () => {
   const [iconActive, setIconActive] = useState(false);
@@ -29,6 +30,7 @@ const Navbar = () => {
     <header>
       <nav className={iconActive ? "nav-active" : ""}>
         <h2 className="nav-logo">
+        <img src={img1} alt="Telemedicine Logo" className="logo-image" />
           <NavLink to={"/"}>Telemedicine</NavLink>
         </h2>
         <ul className="nav-links">
