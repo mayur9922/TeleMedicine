@@ -48,11 +48,9 @@ const Contact = () => {
             type="text"
             name="message"
             className="form-input"
-            placeholder="Enter your message"
+            placeholder="Enter message"
             value={formDetails.message}
             onChange={inputChange}
-            rows="8"
-            cols="12"
           ></textarea>
 
           <button
