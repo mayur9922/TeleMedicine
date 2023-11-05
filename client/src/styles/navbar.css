@@ -44,11 +44,19 @@ nav {
 .nav-logo a,
 .nav-links a {
   color: var(--bold-text-color);
-}
+} 
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
+}
+
+.nav-links a:not(.btn):hover{
+  color: rgb(38, 197, 197);
+}
+
+.nav-links .btn:hover{
+  color:black;
 }
 
 .nav-links .btn {

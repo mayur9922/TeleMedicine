@@ -72,9 +72,9 @@ function Profile() {
 
       if (!email) {
         return toast.error("Email should not be empty");
-      } else if (firstname.length < 3) {
+      } else if (firstname.length < 1) {
         return toast.error("First name must be at least 3 characters long");
-      } else if (lastname.length < 3) {
+      } else if (lastname.length < 0) {
         return toast.error("Last name must be at least 3 characters long");
       } else if (password.length < 5) {
         return toast.error("Password must be at least 5 characters long");
@@ -143,6 +143,7 @@ function Profile() {
                 <input
                   type="text"
                   name="lastname"
+                  label="Last Name"
                   className="form-input"
                   placeholder="Enter your last name"
                   value={formDetails.lastname}

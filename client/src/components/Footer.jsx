@@ -66,15 +66,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          Made by{" "}
-          <a
-            href="https://www.linkedin.com/in/dunna-avinash"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Avinash
-          </a>{" "}
-          © {new Date().getFullYear()}
+
+         All Rights Reserved© {new Date().getFullYear()}
         </div>
       </footer>
     </>
