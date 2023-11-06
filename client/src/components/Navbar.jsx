@@ -7,7 +7,7 @@ import { setUserInfo } from "../redux/reducers/rootSlice";
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 import jwt_decode from "jwt-decode";
-import img1 from "/projects/Software project/TeleMedicine/client/src/images/doctors.png"
+import img1 from "./Doctor.jpg"
 
 const Navbar = () => {
   const [iconActive, setIconActive] = useState(false);
