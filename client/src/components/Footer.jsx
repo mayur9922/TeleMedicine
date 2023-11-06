@@ -10,8 +10,7 @@ const Footer = () => {
         <div className="footer__1">
             <Link to="/" className="footer__logo"><h4>TELE MEDICINE</h4></Link>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tenetur, accusantium id nostrum 
-                magni eaque!
+                Gukuldham society,powdergali,Andheri east, Mumbai - 411001.
             </p>
         </div>
 
@@ -45,7 +44,7 @@ const Footer = () => {
                     +91 9999999999
                 </p>
                 <p>
-                    abc@gmail.com
+                    telemedicine@gmail.com
                 </p>
             </div>
 
