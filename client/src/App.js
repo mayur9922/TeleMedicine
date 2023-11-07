@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { Protected, Public, Admin } from "./middleware/route";
 import React, { lazy, Suspense } from "react";
 import Loading from "./components/Loading";
+import Contact from "./pages/Contact";
 
 const Home = lazy(() => import("./pages/Home"));
 const Dashboard = lazy(() => import("./pages/Dashboard"));
@@ -41,6 +42,10 @@ function App() {
           <Route
             path="/doctors"
             element={<Doctors />}
+          />
+          <Route
+            path="/contact"
+            element={<Contact />}
           />
           <Route
             path="/appointments"
