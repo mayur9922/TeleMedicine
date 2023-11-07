@@ -57,7 +57,7 @@ const Navbar = () => {
                 <NavLink to={"/applyfordoctor"}>Apply for doctor</NavLink>
               </li>
               <li>
-                <HashLink to={"/#contact"}>Contact Us</HashLink>
+                <NavLink to={"/contact"}>Contact Us</NavLink>
               </li>
               <li>
                 <NavLink to={"/profile"}>Profile</NavLink>
